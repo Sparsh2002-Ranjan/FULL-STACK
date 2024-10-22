@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 1500px;
+            width: 800px;
+            border: 2px solid blue;
+            
+        }
+        .container{
+            border: 2px solid red;
+            height: 400px;
+            width: 700px;
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            position: relative;
+        }
+        .item-1{
+            border: 2px solid rgb(33, 179, 65);
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 300px;
+            top: 150px;
+        }
+        .item-2{
+            border: 2px solid rgb(160, 15, 87);
+            height: 100px;
+            width: 100px;
+            position: fixed;
+            bottom: 0px;
+        }
+        .item-3{
+            border: 2px solid rgb(104, 116, 106);
+            height: 100px;
+            width: 100px;
+            position: sticky;
+            top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="item-1">div 1</div>
+            <div class="item-2">div 2</div>
+            <div class="item-3">div 3</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div ul li p{
+            color: white;
+            border: 2px solid grey;
+            background-color: black;
+        }
+        h2+p,h1+p,li+p{
+            color: chocolate; 
+            border: 2px solid blue;
+            background-color: white;
+        }
+        li~li{              
+            color: orange;
+            border: 2px solid navy;
+            background-color: black;
+        }
+        div > h1,h2{
+            color: black;
+            background-color: silver;
+            border: 3px solid green;
+        }
+        a[href="https://google.com"]{
+            color: cadetblue;
+            border: 2px solid gray;
+        }
+        a:link{
+            color: orangered;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: antiquewhite;
+            color: black;
+        }
+        a:visited{
+            color: green;
+            background-color: aqua;
+        }
+        a:active{
+
+        }
+        /* ul li:first-child{
+            background-color: aliceblue;
+            color: antiquewhite;
+        } */
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello World</h1>
+        <p>its nice to meet you all</p>
+        <h2>Items you can use</h2>
+        <p>there are various kind of items</p>
+    <ul>
+        <li><p>Inside list items</p></li>
+        <li>item-1</li>
+        <li>item-2</li>
+        <li>item-3</li>
+        <li>item-4</li>
+        <li>item-5</li>
+        <li>item-6</li>
+        <p>That's all items</p>
+    </ul>
+    <a href="https://google.com">click to open the LINK</a>
+    </div>
+</body>
+</html>
